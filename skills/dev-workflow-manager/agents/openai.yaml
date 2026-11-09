@@ -1,0 +1,3 @@
+interface:
+  display_name: "开发流程管理"
+  short_description: "关联需求与问题，管理开发验证、规范 Git 提交并回填任务进度"

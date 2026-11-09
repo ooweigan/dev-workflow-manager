@@ -1,0 +1,41 @@
+{
+  "name": "dev-workflow-manager",
+  "version": "0.1.0",
+  "description": "管理 AI 开发需求、Issue、每周 Markdown 记录和规范 Git 提交",
+  "license": "MIT",
+  "author": "ooweigan",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "dev-workflow-manager": "bin/cli.mjs"
+  },
+  "files": [
+    "bin/",
+    "skills/"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "prepublishOnly": "npm test"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "keywords": [
+    "codex",
+    "agent-skill",
+    "workflow",
+    "issues",
+    "conventional-commits"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ooweigan/dev-workflow-manager.git"
+  },
+  "homepage": "https://github.com/ooweigan/dev-workflow-manager#readme",
+  "bugs": {
+    "url": "https://github.com/ooweigan/dev-workflow-manager/issues"
+  }
+}
